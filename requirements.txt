@@ -5,3 +5,5 @@ pyarrow==25.0.1
 matplotlib==3.11.2
 python-dotenv==1.2.4
 jupyter==1.1.1
+mplfinance==0.12.10b0
+pandas_market_calendars==5.4.0

@@ -68,3 +68,10 @@ The holdout is the most recent 20% of the data, or 2 years, whichever is shorter
 ## When we reject it
 
 We reject the hypothesis if the primary's in-sample Sharpe is zero or negative, if it does not beat random holding windows, or if the edge disappears at double costs.
+
+## Amendment after in-sample run (Oct 3, 2026)
+
+The first in-sample run went against the primary. Cash needs only beat it, 0.44 against 0.13 after costs, because the bond leg ran about 2.2 times levered and went in and out every month, so its costs came to more than its edge. The two variants below test that directly: the first keeps the primary's structure but sizes the bond leg by how strong the signal is, and the second drops bonds and splits the stock leg across two index futures. Adding them brings us to seven trials, on top of the two hypotheses we tested and dropped before this one.
+
+5. Primary scaled: the primary rules, but the signal is divided by the standard deviation of the previous 24 months of signals and clipped to between -1 and 1, and that value is used in place of its sign.
+6. Cash needs, ES and RTY: the cash needs windows holding ES and RTY at half size each, and ES at full size for the years before RTY data begins.
