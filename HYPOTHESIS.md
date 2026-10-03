@@ -2,9 +2,13 @@
 
 Big institutions have to trade at the end of every month on a fixed schedule, whatever the price. Two forces drive this.
 
-Cash needs. Pension funds, insurers and mutual funds make payments around the turn of the month. They sell stocks in the days before month-end to raise cash and reinvest at the start of the new month. Etula, Rinne, Suominen & Vaittinen, Dash for Cash, Review of Financial Studies, 2020.
+Cash needs. Pension funds, insurers and mutual funds make payments around the turn of the month. They sell stocks in the days before month-end to raise cash and reinvest at the start of the new month.
 
-Rebalancing. Funds with a fixed stock/bond mix, like 60/40, sell whatever went up during the month and buy whatever went down. The authors estimate this costs them about $16 billion a year. Harvey, Mazzoleni & Melone, The Unintended Consequences of Rebalancing, NBER Working Paper 33554, 2025.
+> Etula, Rinne, Suominen & Vaittinen. Dash for Cash. Review of Financial Studies, 2020.
+
+Rebalancing. Funds with a fixed stock/bond mix, like 60/40, sell whatever went up during the month and buy whatever went down. The authors estimate this costs them about $16 billion a year.
+
+> Harvey, Mazzoleni & Melone. The Unintended Consequences of Rebalancing. NBER Working Paper 33554, 2025.
 
 These trades push prices away from fair value for a few days, then prices revert. We take the other side.
 
